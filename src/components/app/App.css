@@ -1,0 +1,14 @@
+.left-sidebar {
+  max-width: 350px;
+  position: fixed;
+  top: 60px;
+  left: 60px;
+}
+
+.right-sidebar {
+  max-width: 350px;
+  position: fixed;
+  top: 50%;
+  right: 60px;
+  transform: translate(0, -50%);
+}
