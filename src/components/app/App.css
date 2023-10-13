@@ -1,3 +1,8 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .left-sidebar {
   max-width: 350px;
   position: fixed;

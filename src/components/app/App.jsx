@@ -1,6 +1,7 @@
 import "./App.css";
 import { InfoCard } from "../infoCard/InfoCard";
 import { Navbar } from "../navbar/Navbar";
+import { HomePage } from "../../pages/homePage/HomePage";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <div className="right-sidebar">
         <Navbar />
       </div>
+      <HomePage />
     </div>
   );
 }

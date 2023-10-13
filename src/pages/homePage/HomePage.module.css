@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 40%;
+  margin-top: 60px;
+}
+.header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+.introduceCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #575757;
+  width: 150px;
+  padding: 10px 0;
+  border-radius: 30px;
+}
+.text h1 {
+  font-size: 78px;
+}
+.text h1 span {
+  color: #28e98c;
+}
+.text p {
+  color: #999999;
+}
