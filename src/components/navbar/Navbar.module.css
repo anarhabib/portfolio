@@ -1,0 +1,40 @@
+.container {
+  background: #1f1f1f;
+  border: 1px solid #575757;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  gap: 20px;
+  padding: 24px 14px;
+  text-align: center;
+  list-style: none;
+}
+.icon {
+  color: #575757;
+  transition: 0.3s;
+}
+.icon:hover {
+  color: #28e98c;
+}
+.navbarItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.span {
+  position: absolute;
+  right: 55px;
+  font-size: 12px;
+  background-color: rgba(87, 87, 87, 0.336);
+  padding: 8px;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.navbarItem:hover .span {
+  visibility: visible;
+  opacity: 1;
+}
